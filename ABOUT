@@ -1,0 +1,17 @@
+[about]
+name = generic-sql-api
+version = 0.0.0
+company =
+team =
+author = Carl, Chris <chrisbcarl@gmail.com>
+author_name = Chris Carl
+author_email = chrisbcarl@gmail.com
+description = An example of how to create a decent generic sql api with Flask and sqlalchemy. Usefull to me as a code-snippet.
+repo =
+created = 2021-02-27 21:53
+modified = 2021-02-28 02:03:55.664952
+program =
+codename =
+keywords =
+development =
+

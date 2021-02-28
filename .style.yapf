@@ -1,0 +1,10 @@
+[style]
+based_on_style = pep8
+spaces_before_comment = 2
+split_before_logical_operator = true
+split_before_dot = true
+COALESCE_BRACKETS = false
+COLUMN_LIMIT = 120
+DEDENT_CLOSING_BRACKETS = true
+INDENT_DICTIONARY_VALUE=True
+ALLOW_SPLIT_BEFORE_DICT_VALUE=False

@@ -1,0 +1,68 @@
+# https://stackoverflow.com/questions/17298668/svn-ignore-like-gitignore
+# svn propset svn:ignore -RF .gitignore .
+
+# PROJECT SPECIFIC
+**.conf
+ignoreme**
+**/venv
+**.log
+
+
+# certificates, PKI, and configs
+**.pem
+**rsa
+**.pub
+**.crt
+**.env
+
+# version control
+**/.svn
+**.svn
+**/.git
+**.git
+
+# compiled output
+**/dist
+**/build
+**/backups
+**/tmp
+**/out-tsc
+**.zip
+**.exe
+
+# System Files
+**.DS_Store
+**Thumbs.db
+**.stackdump
+
+# IDEs and editors
+# **.vscode
+# **.idea
+# **.project
+# **.classpath
+# **.c9
+# **.launch
+# **.settings
+# **.sublime-workspace
+
+# misc
+**/.sass-cache
+**/connect.lock
+**/libpeerconnection.log
+**npm-debug.log
+**yarn-error.log
+**testem.log
+**/typings
+
+# Python
+**/.tox
+**.coverage
+**/coverage
+**/pytest_cache
+**/__pycache__
+**.pyc
+**.pyo
+**.egg-info/
+
+# NodeJS
+**/node_modules
