@@ -57,6 +57,7 @@ python generic-sql-api.py
   * super-duper sanitize inputs
   * etc.
 * computer science
+  * globals, globals everywhere (but it's "fine" for sample code, really shouldn't be used like this)
   * caching like a [redis](https://redis.io/) or [beanstalk](https://aws.amazon.com/elasticbeanstalk/)
   * it's pretty much flying by the seat of its pants
   * good memory management
